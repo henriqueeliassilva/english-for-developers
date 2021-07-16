@@ -9,19 +9,19 @@ export default function About () {
       <Head>
         <title>About page</title>
       </Head>
-      <h1>About</h1>
-        
-        <p>Quem fala inglês pode consumir conteúdo direto da fonte e sair na frente de quem ainda não fala. Se você é um programador ou deseja se tornar um, aprender inglês é essencial. </p>
-  <p>
-  Aumente sua credibilidade e o número de oportunidades aprendendo o essencial do inglês voltado para programadores.    
-  </p>
-  <footer>
-  
+        <h1>English for developers</h1>
+        <p>Nosso objetivo é te ajudar a aprender inglês para alavancar sua carreira de programador.
+        </p>
+        <p>
+        Aumente sua credibilidade e o número de oportunidades aprendendo o essencial do inglês voltado para programadores.    
+        </p>
+        <p>Quem fala inglês pode consumir conteúdo direto da fonte e sair na frente de quem ainda não fala. Se você é um programador ou deseja se tornar um, aprender inglês é essencial. 
+        </p>
+        <footer>
           <Link href="/">
             <a>← Back to home</a>
           </Link>
-        
-  </footer>
+        </footer>
     </Layout>
   )
 }

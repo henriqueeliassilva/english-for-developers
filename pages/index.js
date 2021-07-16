@@ -12,8 +12,6 @@ export default function Home() {
       </Head>
       <main>
   <h1>👋 Olá, seja bem vindo.</h1>
-  <p>Nosso objetivo é te ajudar a aprender inglês para alavancar sua carreira de programador.
-  </p>
   <blockquote>Steve Jobs once said “Everybody in this country should learn to program a computer, because it teaches you how to think”.
   </blockquote>
 </main>
