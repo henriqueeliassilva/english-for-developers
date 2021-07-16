@@ -20,7 +20,7 @@ export default function Layout({ children, home }) {
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
       <header>
-      <nav className="bg-gray-50">
+      <nav>
   <div className="max-w-6xl mx-auto">
     <div className="flex justify-between">
       <div className="flex space-x-4">
