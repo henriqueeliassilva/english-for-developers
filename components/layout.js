@@ -27,11 +27,10 @@ export default function Layout({ children, home }) {
         <div className="flex items-center text-gray-700">
           <a href="/" className="flex items-center py-2 px-2">
           <Image src={avatar}
-              alt="Picture of the author"
+              alt="Emoji"
               width={70}
               height={70}
         />
-            <span className="text-black text-xl">English for Developers</span>
           </a>
         </div>
       </div>
