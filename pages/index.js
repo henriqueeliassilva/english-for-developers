@@ -14,12 +14,49 @@ export default function Home() {
       </Head>
   <h1>👋 Olá, seja bem vindo.</h1>
    <p>Aqui você <b>programador</b> encontra o <b>passo a passo</b> para aprender <b>Inglês</b>.</p>
+  <form method="POST" action="https://fundamental5030.activehosted.com/proc.php" id="_form_1_" novalidate>
+    <input type="hidden" name="u" value="1" />
+    <input type="hidden" name="f" value="1" />
+    <input type="hidden" name="s" />
+    <input type="hidden" name="c" value="0" />
+    <input type="hidden" name="m" value="0" />
+    <input type="hidden" name="act" value="sub" />
+    <input type="hidden" name="v" value="2" />
+    <div className=" flex flex-col items-center pl-16 pr-16 pb-16 bg-gray-100 dark:bg-gray-800 rounded-lg">
+      <div class="_form_element _x29989348 _full_width _clear" >
+          <h2 className="text-center">Cadastre-se para receber atualizações por e-mail</h2> 
+      </div>
+      <div>
+        <div>
+          <p className="">
+            Digite seu e-mail e mantenha-se por dentro.
+          </p>
+        </div>
+      </div>
+      <div>
+        <div>
+          <input className=" w-86 w min-w-full   text-black autofill:text-fill-black py-3 placeholder-gray-400 focus:ring-indigo-500 focus:border-blue-500 block w-full pl-10 border-gray-300 rounded-md" type="text" id="email" name="email" placeholder="Digite seu e-mail" required/>
+        </div>
+      </div>
+      <div >
+        <button className="mt-4 transition-all duration-150 ease-in-out bg-blue-600 hover:bg-blue-700 active:bg-blue-800 hover:scale-105 transform hover:shadow-xl text-white font-semibold py-3 px-5 rounded-md" id="_form_1_submit"  type="submit">
+          Quero receber novidades!
+        </button>
+      </div>
+      <div >
+      </div>
+    </div>
+    <div >
+    </div>
+    <div>
+    </div>
+  </form>
+
    <h3>Parte 1</h3>
    <p>Comece pelo básico e vá avançando conforme sentir segurança.</p>
     <h4>Aprende tudo sobre <Link href="/verbos">
           <a className="hover:text-blue-700">verbos</a>
         </Link></h4>
-    
     </>
     </Layout>
   )

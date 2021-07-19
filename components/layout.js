@@ -18,7 +18,6 @@ export default function Layout({ children, home }) {
         <meta name="og:title" content={siteTitle} />
         <meta name="twitter:card" content="summary_large_image" />
       </Head>
-      <header>
       <nav>
   <div className="max-w-6xl mx-auto">
     <div className="flex justify-between">
@@ -44,13 +43,14 @@ export default function Layout({ children, home }) {
     </div>
   </div>
 </nav>
-      </header>
       <main>
+        <header className="flex items-center justify-between print:hidden">
       <div className="px-4 py-10 max-w-3xl mx-auto sm:px-6 sm:py-12 lg:max-w-4xl lg:py-16 lg:px-8 xl:max-w-6xl">
 <div className="prose prose-sm sm:prose lg:prose-lg xl:prose-2xl mx-autoprose lg:prose-xl">
           {children}
           </div>
       </div>
+      </header>
           </main>
      
     </div>
