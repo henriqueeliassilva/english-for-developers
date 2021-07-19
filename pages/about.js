@@ -17,11 +17,6 @@ export default function About () {
         </p>
         <p>Quem fala inglês pode consumir conteúdo direto da fonte e sair na frente de quem ainda não fala. Se você é um programador ou deseja se tornar um, aprender inglês é essencial. 
         </p>
-        <footer>
-          <Link href="/">
-            <a>← Back to home</a>
-          </Link>
-        </footer>
     </Layout>
   )
 }

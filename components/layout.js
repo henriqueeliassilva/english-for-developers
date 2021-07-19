@@ -4,7 +4,6 @@ import Link from 'next/link'
 import avatar from '../public/avatar.png'
 
 
-const name = 'Your Name'
 export const siteTitle = 'Next.js Sample Website'
 
 export default function Layout({ children, home }) {
