@@ -37,7 +37,7 @@ export default function Layout({ children, home }) {
           <a className="py-4 px-3 text-gray-700 hover:text-gray-900 hover:underline">Home</a>
         </Link>
         <Link href="/about">
-          <a className="py-2 px-3 bg-green-400 text-white rounded hover:bg-white hover:text-green-400  hover:shadow-lg ">About</a>
+          <a className="py-4 px-3 text-gray-700 hover:text-gray-900 hover:underline">About</a>
         </Link>
       </div>
     </div>
