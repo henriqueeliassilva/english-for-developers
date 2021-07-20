@@ -27,7 +27,7 @@ export default function Home() {
     <input type="hidden" name="m" value="0" />
     <input type="hidden" name="act" value="sub" />
     <input type="hidden" name="v" value="2" />
-    <div className=" flex flex-col items-center bg-gray-100 dark:bg-gray-800 rounded-lg mb-10 mt-10">
+    <div className=" flex flex-col items-center pb-10 bg-gray-100 dark:bg-gray-800 rounded-lg mb-10 mt-10">
       <div class="_form_element _x29989348 _full_width _clear" >
           <h2 className="text-center">Cadastre-se para receber atualizações por e-mail</h2> 
       </div>
