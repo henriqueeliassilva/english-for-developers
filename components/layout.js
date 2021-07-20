@@ -32,7 +32,7 @@ export default function Layout({ children, home }) {
           </a>
         </div>
       </div>
-      <div className="flex items-center space-x-1 m-2">
+      <div className="flex items-center space-x-1">
         <Link href="/">
           <a className="py-4 px-3 text-gray-700 hover:text-gray-900 hover:underline">Home</a>
         </Link>

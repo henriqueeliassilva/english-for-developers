@@ -27,7 +27,7 @@ export default function Home() {
     <input type="hidden" name="m" value="0" />
     <input type="hidden" name="act" value="sub" />
     <input type="hidden" name="v" value="2" />
-    <div className=" flex flex-col items-center pl-16 pr-16 pb-16 bg-gray-100 dark:bg-gray-800 rounded-lg mb-10 mt-10">
+    <div className=" flex flex-col items-center bg-gray-100 dark:bg-gray-800 rounded-lg mb-10 mt-10">
       <div class="_form_element _x29989348 _full_width _clear" >
           <h2 className="text-center">Cadastre-se para receber atualizações por e-mail</h2> 
       </div>
@@ -44,7 +44,7 @@ export default function Home() {
         </div>
       </div>
       <div >
-        <button className="mt-4 w-64 md:w-64 lg:w-96 transition-all duration-150 ease-in-out bg-blue-600 hover:bg-blue-700 active:bg-blue-800 hover:scale-105 transform hover:shadow-xl text-white font-semibold py-3 px-6 rounded-md" id="_form_1_submit"  type="submit">
+        <button className="mt-4 w-64 md:w-64 lg:w-96 transition-all duration-150 ease-in-out bg-blue-600 hover:bg-blue-700 active:bg-blue-800 hover:scale-105 transform hover:shadow-xl text-white font-semibold py-3 rounded-md" id="_form_1_submit"  type="submit">
           Quero receber!
         </button>
       </div>
