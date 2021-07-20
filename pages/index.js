@@ -19,7 +19,7 @@ export default function Home() {
     <h4>Aprende tudo sobre <Link href="/verbos">
           <a className="hover:text-blue-700">verbos</a>
         </Link></h4>
-        <form method="POST" action="https://fundamental5030.activehosted.com/proc.php" id="_form_1_" novalidate>
+        <form method="POST" action="https://fundamental5030.activehosted.com/proc.php" id="_form_1_" noValidate>
     <input type="hidden" name="u" value="1" />
     <input type="hidden" name="f" value="1" />
     <input type="hidden" name="s" />
@@ -28,12 +28,12 @@ export default function Home() {
     <input type="hidden" name="act" value="sub" />
     <input type="hidden" name="v" value="2" />
     <div className=" flex flex-col items-center pb-10 bg-gray-100 dark:bg-gray-800 rounded-lg mb-10 mt-10">
-      <div class="_form_element _x29989348 _full_width _clear" >
-          <h2 className="text-center">Cadastre-se para receber atualizações por e-mail</h2> 
+      <div className="">
+          <h2 className="m-16 text-center ">Cadastre-se para receber atualizações por e-mail</h2> 
       </div>
       <div>
         <div>
-          <p className="">
+          <p>
             Digite seu e-mail e mantenha-se por dentro.
           </p>
         </div>
@@ -48,7 +48,7 @@ export default function Home() {
           Quero receber!
         </button>
       </div>
-      <div >
+      <div>
       </div>
     </div>
     <div >

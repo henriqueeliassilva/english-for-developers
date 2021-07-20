@@ -4,9 +4,9 @@ import Link from 'next/link'
 import avatar from '../public/avatar.png'
 
 
-export const siteTitle = 'Next.js Sample Website'
+export const siteTitle = 'English For Developers'
 
-export default function Layout({ children, home }) {
+export default function Layout({ children }) {
   return (
     <div className="antialiased text-gray-900">
       <Head>
